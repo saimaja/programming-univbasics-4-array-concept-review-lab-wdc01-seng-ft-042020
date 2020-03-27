@@ -11,7 +11,10 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  
+  length = array.length
+  length.max do |integer|
+    return integer
+  end
 end
 
 def find_min_value(array)
